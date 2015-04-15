@@ -1,4 +1,4 @@
-liz-bloccit
+https://liz-bloccit.herokuapp.com/
 
 == README
 
