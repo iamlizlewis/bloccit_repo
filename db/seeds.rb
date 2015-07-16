@@ -1,5 +1,13 @@
 require 'faker'
 
+#Create Advertisements
+10.times do 
+  Advertisement.create!(
+    title: Faker::Lorem.sentence,
+    copy: Faker::Lorem.paragraph
+    )
+end
+
 #Create Posts
 50.times do
   Post.create!(
